@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.move-button{
+    background-color: transparent;
+    border: 3px solid white;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+.move-icon {
+    height: 100px;
+    border: none;
+}
+
+.move-button:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.css-result{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.css-score, .css-move {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.reset-button{
+    margin-left: 20px;
+    height: 40px;
+    width: 130px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    margin-top: 13px;
+}
+
+.reset-button:hover{
+    background-color: rgb(247, 225, 139);
+}
